@@ -6,7 +6,7 @@
 export default {
     async fetch(request, env) {
       const data =
-        await fetch("https://api.xiaoheihe.cn/game/common_team_v2/home?appid=1085660")
+        await fetch("https://api.xiaoheihe.cn/game/common_team_v2/home?appid=35026326")
   
       return new Response(data.body, {
         headers: {
